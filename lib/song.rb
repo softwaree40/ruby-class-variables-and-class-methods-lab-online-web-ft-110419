@@ -34,7 +34,7 @@ class Song
          
         @@genres.each do |genre|
            hash_new[genre]+=1
-           binding.pry
+           #binding.pry
             #'wait'
            
          end
