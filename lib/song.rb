@@ -4,6 +4,7 @@ class Song
    @@artists = []    #We create class variables of all artist 
    @@genres = []     #We create class variable of all genre
   attr_accessor :name, :artist, :genre #We create attr_accessor to set data to instance of object when created.
+  
    def initialize(name , artist , genre) #We create initialize to set initial value to object once created.
       @name = name                        #We create instance variable to keep track of name of songs
       @artist = artist                 
