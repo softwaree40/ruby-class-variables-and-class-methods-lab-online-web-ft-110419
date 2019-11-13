@@ -33,7 +33,7 @@ class Song
          hash_new = Hash.new(0)
          
         @@genres.each do |genre|
-          if !@@genre.include?(genre)
+          if !genre.include?(@@genre)
            binding.pry
             #'wait'
            end
