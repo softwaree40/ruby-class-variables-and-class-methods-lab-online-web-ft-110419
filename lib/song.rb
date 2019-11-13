@@ -38,8 +38,9 @@ class Song
             #'wait'
            
          end
+         hash_new
        end
-       return hash_new
+      
     end
   
  
