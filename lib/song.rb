@@ -39,6 +39,7 @@ class Song
            
          end
        end
+       return hash_new
     end
   
  
