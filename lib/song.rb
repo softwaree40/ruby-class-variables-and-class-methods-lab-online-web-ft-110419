@@ -40,7 +40,10 @@ class Song
          end
          hash_new
        end
-      
-    end
+       def self.artist_count
+         
+       end
+      end
+    
   
  
