@@ -36,7 +36,7 @@ class Song
          
            #binding.pry
             #'wait'
-            hash_new[genre]+=1
+            return hash_new[genre]+=1
          end
        end
     end
